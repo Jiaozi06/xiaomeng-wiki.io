@@ -1,0 +1,16 @@
+// 自定义样式
+// 蓝色主题
+
+:root {
+  // 主题色
+  --theme-color: #4C8BF5;
+  --theme-color-light: #E6F0FF;
+  --theme-color-dark: #1D5ACE;
+}
+
+// 深色模式
+html[data-theme="dark"] {
+  --theme-color: #4C8BF5;
+  --theme-color-light: #E6F0FF;
+  --theme-color-dark: #1D5ACE;
+}
