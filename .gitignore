@@ -1,7 +1,7 @@
-
 node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
+*.log
 .DS_Store
-src/.vuepress/dist.zip
+Thumbs.db

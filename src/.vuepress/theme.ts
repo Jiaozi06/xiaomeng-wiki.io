@@ -6,15 +6,17 @@ export default hopeTheme({
   hostname: "#",
 
   author: {
-    name: "小丞",
-    url: "https://qm.qq.com/q/1tP4x36fgY",
+    name: "初小梦",
+    // TODO: 改成你自己的联系方式（QQ群链接 / 主页等）
+    url: "https://qm.qq.com/q/你的QQ群加群链接",
   },
 
   iconAssets: "iconify",
 
   logo: "./logo.ico",
 
-  repo: "A-Kevin1217/xiaomeng-wiki.io",
+  // TODO: 改成你自己的 GitHub 仓库（没有可以删掉这一行）
+  repo: "你的GitHub用户名/你的仓库名",
 
   docsDir: "src",
 
@@ -25,15 +27,16 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "<a href='https://beian.miit.gov.cn/' target='_blank'>沪ICP备2026002971号-2</a>",
+  // TODO: 部署上线并完成 ICP 备案后，把下面备案号换成你自己的；暂时没有备案可整行删除
+  footer: "初小梦 Wiki · Powered by VuePress",
   displayFooter: true,
 
-  // 加密配置
-  encrypt: {
-    config: {
-      "/mc/basic/op.html": ["123456"],
-    },
-  },
+  // 加密配置（示例：给某个页面加访问密码，不需要可整段删除）
+  // encrypt: {
+  //   config: {
+  //     "/某个页面.html": ["密码"],
+  //   },
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -41,14 +44,13 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     sitemap: false,
-    comment: {
-      provider: "Waline",
-      serverURL: 'https://comment.kevcore.cn',
-      /* repo: "A-Kevin1217/xiaomeng-wiki.io",
-       repoId: "R_kgDOL6I11g",
-       category: "General",
-       categoryId: "DIC_kwDOL6I11s4CfSp6",*/
-    },
+
+    // 评论系统（Waline）。需要你自己部署一个 Waline 服务端再填 serverURL，
+    // 不需要评论功能就把整个 comment 段删掉。
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://你的waline服务端地址",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],
@@ -84,7 +86,6 @@ export default hopeTheme({
       tabs: true,
       tasklist: true,
       vPre: true,
-
     },
   },
 });

@@ -6,7 +6,7 @@ icon: ruler
 # 光遇多服身高查询教程
 
 ::: tip 购买入口
-[购买查询次数 <img width="25" height="25" src="/assets/image/height/miao.png"/>](https://c.fakamiao.top/shopDetail/6tXptH "点击跳转发卡喵")
+[购买查询次数 <img width="25" height="25" src="/assets/image/height/miao.png"/>](https://你的发卡平台购买链接 "点击跳转发卡喵")
 :::
 
 ::: warning 重要提示
@@ -17,7 +17,7 @@ icon: ruler
 
 ### 0. 进入查身高群
 
-- [点击这里加入群聊](https://qm.qq.com/q/lUROHjyASs)
+- [点击这里加入群聊](https://你的查身高群加群链接)
 
 ### 1. 兑换次数
 

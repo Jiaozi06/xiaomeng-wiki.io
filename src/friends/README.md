@@ -5,27 +5,20 @@ icon: ri:links-line
 
 # 🤝 友情链接
 
-## 🌟 小丞的其他服务
+## 🌟 初小梦的其他服务
 
+<!-- TODO: 下面是示例卡片，把 link / logo / background 换成你自己的服务，没有就删掉 -->
 <VPCard
   title="光遇身高查询"
   desc="免费查询国际服和测试服身高"
   logo="/logo.ico"
-  link="http://sky.kevcore.cn"
-  background="/img/sky-height.jpg"
-/>
-<VPCard
-  title="🌸小梦bot文件管理平台"
-  desc="快速管理小梦bot文件"
-  logo="/logo.ico"
-  link="http://alist.kevcore.cn"
-  background="/img/sky-height.jpg"
+  link="https://你的查身高网站"
 />
 
 ::: warning 私有服务
 以下服务仅供内部使用，不对外开放：
-- 🤖 小梦bot管理平台 (bot.kevin-study.top/guoba)
-- 🔒 小梦bot文件管理平台 (alist.kevin-study.top)
+- 🤖 初小梦管理平台（你的后台地址）
+- 🔒 初小梦文件管理平台（你的文件平台地址）
 :::
 
 ## 🌈 小伙伴
@@ -64,4 +57,4 @@ icon: ri:links-line
 要求：
 1. 网站内容健康向上
 2. 网站稳定运行
-::: 
+:::
