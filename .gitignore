@@ -4,5 +4,6 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 src/.vuepress/dist.zip
 .edgeone/
+.reasonix/
 .DS_Store
 *.log
